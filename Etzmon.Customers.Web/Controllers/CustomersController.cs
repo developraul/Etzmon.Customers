@@ -14,6 +14,7 @@ namespace Etzmon.Customers.Web.Controllers
         public CustomersController(IDbConnection config)
         {
             _config = config;
+
         }
 
         [HttpGet]
